@@ -36,14 +36,18 @@ export default function App() {
       {/* Hero Section */}
       <main id="about" className="pt-32 pb-16 px-6 max-w-4xl mx-auto text-center">
         <h1 className="text-5xl md:text-7xl font-bold tracking-tight text-slate-900 mb-6 leading-[1.1]">
-          Mili. Your AI doctor, <span className="text-slate-400">powered by real doctors.</span>
+          Free Primary Care <span className="text-slate-400">for All Indians.</span>
         </h1>
+        <p className="text-xl md:text-2xl text-slate-500 mb-10 max-w-2xl mx-auto font-light leading-relaxed">
+          Mili is your AI doctor. Verified by top specialists. <br className="hidden md:block"/> 
+          Always private. Always free.
+        </p>
         
         <button 
           onClick={() => setIsChatOpen(true)}
           className="bg-[#2DD4BF] hover:bg-[#26b8a5] text-white text-lg font-medium px-8 py-4 rounded-2xl shadow-lg shadow-[#2DD4BF]/20 transition-all hover:scale-[1.02] flex items-center gap-2 mx-auto cursor-pointer"
         >
-          Start Free Triage
+          Start Free Care
           <ArrowRight className="w-5 h-5" />
         </button>
 
