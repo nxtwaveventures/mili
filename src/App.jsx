@@ -36,11 +36,12 @@ export default function App() {
       {/* Hero Section */}
       <main id="about" className="pt-32 pb-16 px-6 max-w-4xl mx-auto text-center">
         <h1 className="text-5xl md:text-7xl font-bold tracking-tight text-slate-900 mb-6 leading-[1.1]">
-          Free Primary Care <span className="text-slate-400">for All Indians.</span>
+          World-Class Primary Care.<br />
+          <span className="text-[#2DD4BF]">Free</span> <span className="text-slate-400">for Every Indian.</span>
         </h1>
         <p className="text-xl md:text-2xl text-slate-500 mb-10 max-w-2xl mx-auto font-light leading-relaxed">
           Mili is your AI doctor. Verified by top specialists. <br className="hidden md:block"/> 
-          Always private. Always free.
+          Always private. <span className="font-semibold text-slate-900">Always 100% Free.</span>
         </p>
         
         <button 
