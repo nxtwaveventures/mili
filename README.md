@@ -1,16 +1,56 @@
-# React + Vite
+# Mili - Sovereign AI Triage for Bharat
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Mili is a minimalist, high-trust healthcare triage application designed with a human-centric focus. It leverages a clean, "Lotus-like" aesthetic to provide a calm and reassuring user experience.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Sovereign AI Triage:** Simulates a reasoning engine for medical assessment.
+- **Medical Minimalist Design:** High whitespace, calm teal accents (`#2DD4BF`), and breathable typography.
+- **Verified Clinical Oversight:** Sections dedicated to doctor verification and trust (ABDM, IndiaAI).
+- **Responsive & Accessible:** Fully mobile-responsive interface.
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Framework:** [React](https://react.dev/) (Vite)
+- **Styling:** [Tailwind CSS v4](https://tailwindcss.com/)
+- **Icons:** [Lucide React](https://lucide.dev/)
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Prerequisites
+
+- Node.js (v18 or higher)
+- npm or yarn
+
+### Installation
+
+1.  Clone the repository:
+    ```bash
+    git clone https://github.com/nxtwaveventures/mili.git
+    cd mili
+    ```
+
+2.  Install dependencies:
+    ```bash
+    npm install
+    ```
+
+3.  Start the development server:
+    ```bash
+    npm run dev
+    ```
+
+## Project Structure
+
+- `src/App.jsx`: Main application logic, including the Hero, Trust Bar, Chat Interface, and Doctor Verification sections.
+- `src/index.css`: Tailwind CSS imports and global styles (smooth scrolling, font settings).
+- `vite.config.js`: Vite configuration with Tailwind plugin.
+
+## Customization
+
+- **Colors:** The primary accent color is `#2DD4BF` (Calm Teal). Text is `Slate-900`.
+- **Content:** Edit the text in `src/App.jsx` to update the clinical logic or team members.
+
+## License
+
+Private / Proprietary - NxtWaves
